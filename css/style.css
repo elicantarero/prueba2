@@ -1,0 +1,116 @@
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#e0e0e0;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+}
+
+body {
+  font-family: 'Catamaran', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+	color:var(--color-titulos);
+}
+
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+}
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+	
+}
+
+#hero{
+	background-image: url("../img/bg-services-title.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.40);
+	background-blend-mode: multiply;
+	padding: 10% 0;
+	text-align: center;
+}
+
+#hero h1{
+	font-size: 100px ; 
+	font-weight: 700;
+	margin-bottom: 30px;
+	color: #FFFFFF;
+}
+
+.service-box{
+	padding:70px;
+}
+
+.service-box i{
+	font-size:120px;
+	color:var(--color-iconos);
+	margin-bottom:25px;
+}
+
+.service-box h4{
+	margin-bottom:10px;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.service-box p{
+	font-size:13px;
+	color:#777;
+}
+
+.service-box .check{
+	align-items:center;
+	font-size:35px;
+	color:#53c3c9;          
+	margin-top:auto;
+	font-weight: 900;
+	
+}
+
+#information{
+	padding:70px 0 40px;
+	background:#f7f7f7;
+}
+
+.info-title{
+	margin-bottom:50px;
+}
+
+.info-title h2{
+	font-size:28px;
+	margin-bottom:20px;
+	font-weight: 700;
+}
+
+.info-title p{
+	color:#777;
+	font-size:14px;
+	margin-bottom: 30px;
+}
+
+.info-box{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.info-box img{
+	border-radius:5px;
+	margin-bottom: 30px;
+}
+
+.info-box h4{
+	margin-bottom:15px;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.info-box p{
+	font-size:13px;
+	color:#777;
+}
