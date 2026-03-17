@@ -64,14 +64,14 @@ footer{
 	color:#777;
 }
 
-.service-box .check{
+.service-box > i:last-child{
 	align-items:center;
 	font-size:35px;
 	color:#53c3c9;          
 	margin-top:auto;
-	font-weight: 900;
 	
 }
+
 
 #information{
 	padding:70px 0 40px;
